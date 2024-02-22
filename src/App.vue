@@ -115,7 +115,7 @@ export default {
   },
   methods:{
     onScroll(){
-      if(window.scrollY > 80){
+      if(window.scrollY > 50){
         this.isScrolled = true;
       }else{
         this.isScrolled = false;
